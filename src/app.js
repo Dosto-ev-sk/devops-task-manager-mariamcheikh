@@ -10,7 +10,8 @@ let tasks = [
 ];
 
 app.get('/', (req, res) => {
-  res.json({ message: "DevOps Task Manager API is running..." });
+  res.json({ message: "DevOps Task Manager API is running (Lab 1)" });
+
 });
 
 app.get('/tasks', (req, res) => {
